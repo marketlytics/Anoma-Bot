@@ -1,0 +1,7 @@
+google-cloud-storage
+google-cloud-bigquery
+pandas
+numpy
+google-api-python-client
+dataframe-image
+google-cloud-scheduler
