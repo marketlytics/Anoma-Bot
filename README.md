@@ -4,6 +4,7 @@ The aim of the Anoma bot is to notify data anomalies, the number of rows added i
 All the configuration, project ids, tests, and query parameters are configured in a google sheet. This sheet can hold parameters for multiple tests for multiple different projects.
 
 The code is hosted in a cloud function that on getting triggered reads the sheet or config file, picks the specified test parameters, runs it, and reports the results to slack.
+![](Anoma Bot Architecture.JPG)
 
 ## Prerequisites
 ### Service Accounts
