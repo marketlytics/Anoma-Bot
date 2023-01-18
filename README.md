@@ -2,8 +2,8 @@
 The aim of the Anoma bot is to notify data anomalies, the number of rows added in a day, and any data arrived in a day or not for a particular table of the database.  It is developed in such a way that it can be easily integrated with any project without changing much of the codebase.
 
 All the configuration, project ids, tests, and query parameters are configured in a google sheet. This sheet can hold parameters for multiple tests for multiple different projects.
-
 The code is hosted in a cloud function that on getting triggered reads the sheet or config file, picks the specified test parameters, runs it, and reports the results to slack.
+
 ![Anoma Bot Architecture](https://user-images.githubusercontent.com/122284087/213253411-7c95dc14-7b6a-4507-a418-52358f2620a4.JPG)
 
 ## Prerequisites
