@@ -6,7 +6,15 @@ The code is hosted in a cloud function that on getting triggered reads the sheet
 
 ![Anoma Bot Architecture](https://user-images.githubusercontent.com/122284087/213253411-7c95dc14-7b6a-4507-a418-52358f2620a4.JPG)
 
+## Use Cases
+1. Anomaly Detection: The bot can monitor data pipeline for any unexpected or unusual changes in the data and raise alerts for further investigation on slack channel.
+2. Data Arrival Monitoring: The bot can be used to check if the data has arrived as expected and in case of any delays, it can notify the concerned team over slack channel.
+3. Row Count Verification: The bot can be used to check if the number of rows inserted into the database is as expected and notify if there is any discrepancy.
+4. Real-time Monitoring: The bot can be set up to monitor the data pipeline and database in real-time, providing immediate feedback on any issues.
+5. Automated Reporting: The bot can generate regular reports on data pipeline and database activity, providing a clear view of performance over time.
+
 ## Prerequisites
+
 ### Service Accounts
 #### Scheduler Service Account: 
 Should be set as an environment variable with name ANOMALY_TESTS_SCHEDULER_SERVICE_ACC_PATH.
@@ -36,4 +44,3 @@ The Project uses a Slack channel webhook to send messages/alerts for tests’ re
 
 ### Steps to configure and test Anoma bot by using Google Sheet
 The manual in repo contains the detail for configuration and testing of Anoma bot, please refer to it.
-
